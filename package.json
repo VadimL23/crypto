@@ -1,0 +1,29 @@
+{
+  "name": "cypter",
+  "version": "1.0.0",
+  "description": "some cypter",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "concurrently \"nodemon\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimL23/crypto.git"
+  },
+  "author": "vadim_lachkov@mail.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimL23/crypto/issues"
+  },
+  "homepage": "https://github.com/VadimL23/crypto#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "typescript": "^4.6.4"
+  }
+}
